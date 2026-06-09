@@ -7,9 +7,8 @@
         "property": "minecraft:custom_model_data",
         "index": 0,
         "cases": [
-            {
-                "when": "ore", "model": { "type": "model", "model": "item/forms/ingot", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}
-            }
+            {"when": "ore", "model": { "type": "model", "model": "item/forms/ore", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "ingot", "model": { "type": "model", "model": "item/forms/ingot", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
         ],
         "fallback": {
             "type": "minecraft:model",
