@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ore",
+        "name": "Ore",
+        "quality": 0.5
+    },
+    {
+        "id": "ingot",
+        "name": "Ingot",
+        "quality": 0.8
+    },
+    {
+        "id": "plate",
+        "name": "Plate",
+        "quality": 0.9
+    },
+    {
+        "id": "wire",
+        "name": "Wire",
+        "quality": 0.95
+    },
+    {
+        "id": "powder",
+        "name": "Powder",
+        "quality": 0.7
+    },
+    {
+        "id": "liquid",
+        "name": "Liquid",
+        "quality": 0.85
+    }
+]
