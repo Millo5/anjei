@@ -5,6 +5,7 @@ set BRANCH_NAME=anjei-%BRANCH%
 
 git checkout master
 git pull origin master
+
 git switch %BRANCH_NAME% 2>nul || git switch -c %BRANCH_NAME%
 
 git add .
