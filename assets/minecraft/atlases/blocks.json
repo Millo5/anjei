@@ -1,0 +1,24 @@
+{
+	"sources": [
+		{
+			"type": "directory",
+			"source": "custom/blocks",
+			"prefix": "custom/blocks/"
+		},
+		{
+			"type": "directory",
+			"source": "custom/items",
+			"prefix": "custom/items/"
+		},
+		{
+			"type": "single",
+			"resource": "entity/lead_knot",
+			"sprite": "entity/lead_knot"
+		},
+		{
+			"type": "directory",
+			"source": "blueprint",
+			"prefix": "blueprint/"
+		}
+	]
+}
