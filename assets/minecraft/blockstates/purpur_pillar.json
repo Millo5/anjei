@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:custom/blocks/conveyor_support",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:custom/blocks/conveyor_support"
+    },
+    "axis=z": {
+      "model": "minecraft:custom/blocks/conveyor_support",
+      "x": 90
+    }
+  }
+}
