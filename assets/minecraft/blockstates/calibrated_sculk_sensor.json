@@ -1,5 +1,8 @@
 {
     "variants": {
+        "sculk_sensor_phase=inactive": {
+            "model": "minecraft:custom/blocks/conveyor"
+        },
         "sculk_sensor_phase=cooldown,power=1,facing=east": {
             "model": "minecraft:custom/blocks/conveyor",
             "y": 270
