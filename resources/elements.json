@@ -8,8 +8,8 @@
         "thermal_conductivity": 20,
         "density": 7.8,
         "colors": [
-            "#b7410e",
-            "#c0c0c0",
+            "#FFBA82",
+            "#A7C0d6",
             "#8b0000"
         ]
     },
@@ -20,7 +20,12 @@
         "melting_point": 1337,
         "boiling_point": 3129,
         "thermal_conductivity": 79,
-        "density": 19.3
+        "density": 19.3,
+        "colors": [
+            "#FFEB54",
+            "#FFEB54",
+            "#FFEB54"
+        ]
     },
     {
         "id": "copper",
@@ -29,7 +34,12 @@
         "melting_point": 1358,
         "boiling_point": 2835,
         "thermal_conductivity": 100,
-        "density": 9
+        "density": 9,
+        "colors": [
+            "#FF873D",
+            "#FF873D",
+            "#FF873D"
+        ]
     },
     {
         "id": "carbon",
@@ -38,7 +48,12 @@
         "melting_point": 3823,
         "boiling_point": 4300,
         "thermal_conductivity": 0.5,
-        "density": 1.8
+        "density": 1.8,
+        "colors": [
+            "#2B2B33",
+            "#2B2B33",
+            "#2B2B33"
+        ]
     },
     {
         "id": "cobalt",
@@ -47,7 +62,12 @@
         "melting_point": 1768,
         "boiling_point": 3200,
         "thermal_conductivity": 25,
-        "density": 8.9
+        "density": 8.9,
+        "colors": [
+            "#5EB2FF",
+            "#5EB2FF",
+            "#5EB2FF"
+        ]
     },
     {
         "id": "tin",
@@ -56,7 +76,12 @@
         "melting_point": 505,
         "boiling_point": 2875,
         "thermal_conductivity": 17,
-        "density": 7.3
+        "density": 7.3,
+        "colors": [
+            "#FFD9AD",
+            "#FFF0E0",
+            "#FFF0E0"
+        ]
     },
     {
         "id": "chromium",
@@ -65,7 +90,12 @@
         "melting_point": 2180,
         "boiling_point": 2944,
         "thermal_conductivity": 23,
-        "density": 7.2
+        "density": 7.2,
+        "colors": [
+            "#424F66",
+            "#D1E2FF",
+            "#E1882F"
+        ]
     },
     {
         "id": "nickel",
@@ -74,7 +104,12 @@
         "melting_point": 1728,
         "boiling_point": 3186,
         "thermal_conductivity": 23,
-        "density": 8.8
+        "density": 8.8,
+        "colors": [
+            "#A5B3CC",
+            "#96CCB0",
+            "#71E096"
+        ]
     },
     {
         "id": "platinum",
@@ -83,7 +118,12 @@
         "melting_point": 2041,
         "boiling_point": 4098,
         "thermal_conductivity": 18,
-        "density": 21.5
+        "density": 21.5,
+        "colors": [
+            "#809599",
+            "#AAE0FF",
+            "#8BC2B3"
+        ]
     },
     {
         "id": "uranium",
@@ -92,7 +132,12 @@
         "melting_point": 1405,
         "boiling_point": 4404,
         "thermal_conductivity": 7,
-        "density": 19.1
+        "density": 19.1,
+        "colors": [
+            "#FFBF1C",
+            "#B8FF3F",
+            "#448C1B"
+        ]
     },
     {
         "id": "francium",
@@ -101,7 +146,12 @@
         "melting_point": 300,
         "boiling_point": 950,
         "thermal_conductivity": 4,
-        "density": 1.9
+        "density": 1.9,
+        "colors": [
+            "#CC6C30",
+            "#FF1639",
+            "#FFB300"
+        ]
     },
     {
         "id": "argon",
@@ -110,7 +160,12 @@
         "melting_point": 84,
         "boiling_point": 87,
         "thermal_conductivity": 0.02,
-        "density": 1.6
+        "density": 1.6,
+        "colors": [
+            "#000000",
+            "#000000",
+            "#000000"
+        ]
     },
     {
         "id": "radium",
@@ -119,15 +174,25 @@
         "melting_point": 973,
         "boiling_point": 2010,
         "thermal_conductivity": 12,
-        "density": 4
+        "density": 4,
+        "colors": [
+            "#000000",
+            "#000000",
+            "#000000"
+        ]
     },
     {
         "id": "younghoonium",
         "symbol": "Iq",
         "name": "Younghoonium",
-        "melting_point": 549,
-        "boiling_point": 553,
+        "melting_point": 276,
+        "boiling_point": 280,
         "thermal_conductivity": 33.3,
-        "density": 0.985
+        "density": 0.985,
+        "colors": [
+            "#EBC077",
+            "#ED35C1",
+            "#882218"
+        ]
     }
 ]
