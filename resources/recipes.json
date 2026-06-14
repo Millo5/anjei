@@ -1,32 +1,38 @@
 [
     {
-        "machine": "presser",
+        "id": "crude_ingot_cast",
+        "name": "Crude Ingot Casting",
+        "machines": ["foundry", "foundry+"],
         "input": [
-            {"form": "ingot", "volume": 1}
+            {"form": "liquid", "material": "%0", "volume": 6}
         ],
         "output": [
-            {"form": "plate", "volume": 1}
+            {"form": "ingot", "material": "%0", "quality": 0.8, "count": 1}
         ]
     },
 
     {
-        "machine": "alloyer",
+        "id": "efficient_ingot_cast",
+        "name": "Efficient Ingot Casting",
+        "machines": ["foundry+"],
         "input": [
-            {"material": "iron", "volume": 1},
-            {"material": "carbon", "volume": 0.2}
+            {"form": "liquid", "material": "%0", "volume": 4}
         ],
         "output": [
-            {"material": "steel", "volume": 1}
+            {"form": "ingot", "material": "%0", "quality": 1.0, "count": 1}
         ]
     },
 
     {
-        "machine": "casting_basin",
+        "id": "steel",
+        "name": "Steel Alloy",
+        "machines": ["alloyer"],
         "input": [
-            {"form": "liquid", "volume": 1}
+            {"form": "liquid", "material": "iron", "volume": 1.6},
+            {"form": "powder", "material": "carbon", "count": 1}
         ],
         "output": [
-            {"form": "ingot", "volume": 1}
+            {"form": "powder", "material": "steel", "quality": 1.0, "count": 2}
         ]
     }
 ]

@@ -28,8 +28,8 @@ vec3 notGamma(vec3 color) {
 }
 
 void main() {
-    float minimum_block_brightness = max(texCoord.x * 16, 4);
-    float minimum_sky_brightness = max(texCoord.y * 16, 6);
+    float minimum_block_brightness = max(texCoord.x * 16, 7);
+    float minimum_sky_brightness = max(texCoord.y * 16, 12);
     float block_brightness = get_brightness(floor(minimum_block_brightness) / 15) * lightmapInfo.BlockFactor;
     float sky_brightness = get_brightness(floor(minimum_sky_brightness) / 15) * lightmapInfo.SkyFactor;
 

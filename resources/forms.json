@@ -23,5 +23,10 @@
         "id": "powder",
         "name": "Powder",
         "volume": 1
+    },
+    {
+        "id": "product",
+        "name": "Product",
+        "volume": ""
     }
 ]
