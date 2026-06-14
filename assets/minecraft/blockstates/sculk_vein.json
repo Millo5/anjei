@@ -1,0 +1,31 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_middle" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_up" },
+            "when": { "up": "true" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_down" },
+            "when": { "down": "true" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_north" },
+            "when": { "north": "true" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_south" },
+            "when": { "south": "true" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_east" },
+            "when": { "east": "true" }
+        },
+        {
+            "apply": { "model": "minecraft:custom/blocks/pipe/pipe_west" },
+            "when": { "west": "true" }
+        }
+    ]
+  }

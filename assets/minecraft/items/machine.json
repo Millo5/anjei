@@ -1,0 +1,17 @@
+{
+    "swap_animation_scale": 0,
+    "hand_animation_on_swap": false,
+    "oversized_in_gui": true,
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+            {"when": "pump", "model": { "type": "model", "model": "custom/blocks/pump", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "item/diamond"
+        }
+    }
+}

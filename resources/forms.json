@@ -2,31 +2,26 @@
     {
         "id": "ore",
         "name": "Ore",
-        "quality": 0.5
+        "volume": 0.8
     },
     {
         "id": "ingot",
         "name": "Ingot",
-        "quality": 0.8
+        "volume": 4
     },
     {
         "id": "plate",
         "name": "Plate",
-        "quality": 0.9
+        "volume": 3
     },
     {
         "id": "wire",
         "name": "Wire",
-        "quality": 0.95
+        "volume": 0.2
     },
     {
         "id": "powder",
         "name": "Powder",
-        "quality": 0.7
-    },
-    {
-        "id": "liquid",
-        "name": "Liquid",
-        "quality": 0.85
+        "volume": 1
     }
 ]
