@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "honey_level=1,facing=south": {
+            "model": "minecraft:custom/blocks/packageplatform1",
+            "y": 0
+        },
+        "honey_level=2,facing=south": {
+            "model": "minecraft:custom/blocks/packageplatform2",
+            "y": 0
+        },
+        
+        "honey_level=1,facing=west": {
+            "model": "minecraft:custom/blocks/packageplatform1",
+            "y": 90
+        },
+        "honey_level=2,facing=west": {
+            "model": "minecraft:custom/blocks/packageplatform2",
+            "y": 90
+        },
+
+        "honey_level=1,facing=north": {
+            "model": "minecraft:custom/blocks/packageplatform1",
+            "y": 180
+        },
+        "honey_level=2,facing=north": {
+            "model": "minecraft:custom/blocks/packageplatform2",
+            "y": 180
+        },
+
+        "honey_level=1,facing=east": {
+            "model": "minecraft:custom/blocks/packageplatform1",
+            "y": 270
+        },
+        "honey_level=2,facing=east": {
+            "model": "minecraft:custom/blocks/packageplatform2",
+            "y": 270
+        }
+    }
+}
