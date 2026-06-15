@@ -7,7 +7,7 @@
         "property": "minecraft:custom_model_data",
         "index": 0,
         "cases": [
-            {"when": "pump", "model": { "type": "model", "model": "custom/blocks/pump", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
+            {"when": "iron_mine", "model": { "type": "model", "model": "custom/blocks/ironmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
         ],
         "fallback": {
             "type": "minecraft:model",
