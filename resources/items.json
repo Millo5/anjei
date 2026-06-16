@@ -1,0 +1,12 @@
+[
+    {
+        "id": "iron_ore",
+        "name": "Iron Ore",
+        "model": "minecraft:raw_iron"
+    },
+    {
+        "id": "iron",
+        "name": "Iron",
+        "model": "minecraft:iron_ingot"
+    }
+]

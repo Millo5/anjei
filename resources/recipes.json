@@ -1,38 +1,13 @@
 [
     {
-        "id": "crude_ingot_cast",
-        "name": "Crude Ingot Casting",
-        "machines": ["foundry", "foundry+"],
+        "id": "smelt_iron",
+        "name": "Iron Smelting",
+        "machines": ["smeltery"],
         "input": [
-            {"form": "liquid", "material": "%0", "volume": 6}
+            {"item": "iron_ore", "count": 2}
         ],
         "output": [
-            {"form": "ingot", "material": "%0", "quality": 0.8, "count": 1}
-        ]
-    },
-
-    {
-        "id": "efficient_ingot_cast",
-        "name": "Efficient Ingot Casting",
-        "machines": ["foundry+"],
-        "input": [
-            {"form": "liquid", "material": "%0", "volume": 4}
-        ],
-        "output": [
-            {"form": "ingot", "material": "%0", "quality": 1.0, "count": 1}
-        ]
-    },
-
-    {
-        "id": "steel",
-        "name": "Steel Alloy",
-        "machines": ["alloyer"],
-        "input": [
-            {"form": "liquid", "material": "iron", "volume": 1.6},
-            {"form": "powder", "material": "carbon", "count": 1}
-        ],
-        "output": [
-            {"form": "powder", "material": "steel", "quality": 1.0, "count": 2}
+            {"item": "iron", "count": 1}
         ]
     }
 ]
