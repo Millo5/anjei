@@ -7,7 +7,9 @@
         "property": "minecraft:custom_model_data",
         "index": 0,
         "cases": [
-            {"when": "iron_mine", "model": { "type": "model", "model": "custom/blocks/ironmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
+            {"when": "iron_mine", "model": { "type": "model", "model": "custom/blocks/ironmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "smeltery", "model": { "type": "model", "model": "custom/blocks/smeltery", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "trash", "model": { "type": "model", "model": "custom/blocks/trash", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
         ],
         "fallback": {
             "type": "minecraft:model",
