@@ -1,0 +1,26 @@
+{
+    "variants": {
+        "orientation=east_up": {
+            "model": "minecraft:custom/blocks/loader",
+            "y": 90
+        },
+        "orientation=north_up": {
+            "model": "minecraft:custom/blocks/loader",
+            "y": 0
+        },
+        "orientation=south_up": {
+            "model": "minecraft:custom/blocks/loader",
+            "y": 180
+        },
+        "orientation=west_up": {
+            "model": "minecraft:custom/blocks/loader",
+            "y": 270
+        },
+
+        
+        "orientation=east_up,crafting=true": {
+            "model": "minecraft:custom/blocks/loader",
+            "y": 270
+        }
+    }
+}
