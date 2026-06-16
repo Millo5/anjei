@@ -10,6 +10,7 @@
             {"when": "iron_mine", "model": { "type": "model", "model": "custom/blocks/ironmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "smeltery", "model": { "type": "model", "model": "custom/blocks/smeltery", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "packager", "model": { "type": "model", "model": "custom/blocks/big_packager", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "belt", "model": { "type": "model", "model": "custom/blocks/conveyor_display", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "loader", "model": { "type": "model", "model": "custom/blocks/loader", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "trash", "model": { "type": "model", "model": "custom/blocks/trash", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
         ],

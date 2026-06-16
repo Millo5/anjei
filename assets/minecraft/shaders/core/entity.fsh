@@ -57,7 +57,10 @@ void main() {
         vc = vec4(1);
 #endif
     }
-    
+
+    if (ivec4(baseColor * 255.5) == ivec4(0, 0, 255, 255)) {
+        discard;
+    }
 
 #ifdef ALPHA_CUTOUT
     if (color.a < ALPHA_CUTOUT) {
