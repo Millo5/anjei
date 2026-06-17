@@ -1,7 +1,7 @@
 {
     "swap_animation_scale": 0,
     "hand_animation_on_swap": false,
-    "oversized_in_gui": true,
+    "oversized_in_gui": false,
     "model": {
         "type": "minecraft:select",
         "property": "minecraft:custom_model_data",
