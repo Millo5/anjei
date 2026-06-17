@@ -1,0 +1,33 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"ttt": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/ttt/eyes.json",
+				"assets/animated_java/items/blueprint/ttt/head.json",
+				"assets/animated_java/items/blueprint/ttt/left_arm.json",
+				"assets/animated_java/items/blueprint/ttt/left_arm2.json",
+				"assets/animated_java/items/blueprint/ttt/left_leg.json",
+				"assets/animated_java/items/blueprint/ttt/left_leg2.json",
+				"assets/animated_java/items/blueprint/ttt/right_arm.json",
+				"assets/animated_java/items/blueprint/ttt/right_arm2.json",
+				"assets/animated_java/items/blueprint/ttt/right_leg.json",
+				"assets/animated_java/items/blueprint/ttt/right_leg2.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/ttt/eyes.json",
+				"assets/animated_java/models/blueprint/ttt/head.json",
+				"assets/animated_java/models/blueprint/ttt/left_arm.json",
+				"assets/animated_java/models/blueprint/ttt/left_arm2.json",
+				"assets/animated_java/models/blueprint/ttt/left_leg.json",
+				"assets/animated_java/models/blueprint/ttt/left_leg2.json",
+				"assets/animated_java/models/blueprint/ttt/right_arm.json",
+				"assets/animated_java/models/blueprint/ttt/right_arm2.json",
+				"assets/animated_java/models/blueprint/ttt/right_leg.json",
+				"assets/animated_java/models/blueprint/ttt/right_leg2.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/ttt/triple_t.png"
+			]
+		}
+	}
+}
