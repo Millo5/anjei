@@ -2,11 +2,11 @@
     {
         "id": "iron_ore",
         "name": "Iron Ore",
-        "model": "minecraft:raw_iron"
+        "model": "minecraft:iron_ore"
     },
     {
         "id": "iron",
         "name": "Iron",
-        "model": "minecraft:iron_ingot"
+        "model": "minecraft:iron_bar"
     }
 ]
