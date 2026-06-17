@@ -50,7 +50,7 @@ vec3 atmosphereColor(vec3 rayOrigin, vec3 rayDirection, float time) {
     dist = 0.25 * mix(scatterMult, 1.0, dist) / dist;
 
 
-    vec3 color = vec3(0.6, 0.9, 1.0);
+    vec3 color = mix(vec3(0.7, 0.4, 1.0), vec3(0.6, 0.9, 1.0), min(rayDirection.y + 1.5, 2.0) * 0.5);
 
     color += sun * vec3(1, 1, 0);
     color += color * pow(1.0 - scatterMult, 10.0) * 2.0;
@@ -61,11 +61,11 @@ vec3 atmosphereColor(vec3 rayOrigin, vec3 rayDirection, float time) {
 
 
 float cloudPlane(vec3 ro, vec3 rd, float height, vec2 offset) {
-    if (rd.y < 0.15) return 0;
+    if (rd.y < 0.05) return 0;
 
     vec2 plane = rd.xz * ((height - ro.y) / rd.y);
     float value = noise((floor(plane * 0.5 + offset))*0.3);
-    value = value*3 - 1. - length(plane) * 0.01;
+    value = value*3 - 1. - length(plane) * 0.02;
 
     return max(min(value, 1), 0);
 }
@@ -86,8 +86,8 @@ vec4 skybox() {
 
     vec3 cloudColor = vec3(1., 0.97,0.95);
     vec3 cloudColo2 = vec3(0.96, 0.98, 1.);
-    color = mix(color, cloudColor, cloudPlane(rayOrigin, rayDirection, 20, vec2(0.5 * time, time)));
-    color = mix(color, cloudColo2, cloudPlane(rayOrigin, rayDirection, 20, vec2(0.8 * time, time)));
+    color = mix(color, cloudColor, cloudPlane(rayOrigin, rayDirection, 6, vec2(0.5 * time, time)));
+    color = mix(color, cloudColo2, cloudPlane(rayOrigin, rayDirection, 6, vec2(0.8 * time, time)));
 
 
     return vec4(color, 1);
