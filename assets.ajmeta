@@ -28,6 +28,24 @@
 				"assets/animated_java/models/empty.json",
 				"assets/animated_java/textures/blueprint/ttt/triple_t.png"
 			]
+		},
+		"walker": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/walker/bone.json",
+				"assets/animated_java/items/blueprint/walker/leftb.json",
+				"assets/animated_java/items/blueprint/walker/leftf.json",
+				"assets/animated_java/items/blueprint/walker/rightb.json",
+				"assets/animated_java/items/blueprint/walker/rightf.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/walker/bone.json",
+				"assets/animated_java/models/blueprint/walker/leftb.json",
+				"assets/animated_java/models/blueprint/walker/leftf.json",
+				"assets/animated_java/models/blueprint/walker/rightb.json",
+				"assets/animated_java/models/blueprint/walker/rightf.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/walker/big_packager.png"
+			]
 		}
 	}
 }
