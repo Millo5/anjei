@@ -1853,5 +1853,6 @@
 			}
 		}
 	],
-	"animation_controllers": []
+	"animation_controllers": [],
+	"animation_variable_placeholders": "v.m = 0.75\nv.n = 3 - v.m "
 }
