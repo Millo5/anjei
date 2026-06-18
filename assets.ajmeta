@@ -1,6 +1,86 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"lamo": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/lamo/backwheels.json",
+				"assets/animated_java/items/blueprint/lamo/car.json",
+				"assets/animated_java/items/blueprint/lamo/frontwheels.json",
+				"assets/animated_java/items/blueprint/lamo/packages.json",
+				"assets/animated_java/items/blueprint/lamo/packages2.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/lamo/backwheels.json",
+				"assets/animated_java/models/blueprint/lamo/car.json",
+				"assets/animated_java/models/blueprint/lamo/frontwheels.json",
+				"assets/animated_java/models/blueprint/lamo/packages.json",
+				"assets/animated_java/models/blueprint/lamo/packages2.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/lamo/limo.png",
+				"assets/animated_java/textures/blueprint/lamo/package.png"
+			]
+		},
+		"limo": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/limo/anj.json",
+				"assets/animated_java/items/blueprint/limo/backwheels.json",
+				"assets/animated_java/items/blueprint/limo/bone.json",
+				"assets/animated_java/items/blueprint/limo/bone1.json",
+				"assets/animated_java/items/blueprint/limo/bone2.json",
+				"assets/animated_java/items/blueprint/limo/car.json",
+				"assets/animated_java/items/blueprint/limo/flo.json",
+				"assets/animated_java/items/blueprint/limo/frontwheels.json",
+				"assets/animated_java/items/blueprint/limo/mil.json",
+				"assets/animated_java/items/blueprint/limo/packages.json",
+				"assets/animated_java/items/blueprint/limo/packages2.json",
+				"assets/animated_java/items/blueprint/limo/schloo.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/limo/anj.json",
+				"assets/animated_java/models/blueprint/limo/backwheels.json",
+				"assets/animated_java/models/blueprint/limo/bone.json",
+				"assets/animated_java/models/blueprint/limo/bone1.json",
+				"assets/animated_java/models/blueprint/limo/bone2.json",
+				"assets/animated_java/models/blueprint/limo/car.json",
+				"assets/animated_java/models/blueprint/limo/flo.json",
+				"assets/animated_java/models/blueprint/limo/frontwheels.json",
+				"assets/animated_java/models/blueprint/limo/mil.json",
+				"assets/animated_java/models/blueprint/limo/packages.json",
+				"assets/animated_java/models/blueprint/limo/packages2.json",
+				"assets/animated_java/models/blueprint/limo/schloo.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/limo/anya.png",
+				"assets/animated_java/textures/blueprint/limo/bloophead.png",
+				"assets/animated_java/textures/blueprint/limo/limo.png",
+				"assets/animated_java/textures/blueprint/limo/milo.png",
+				"assets/animated_java/textures/blueprint/limo/package.png",
+				"assets/animated_java/textures/blueprint/limo/snep.png"
+			]
+		},
+		"miltruck": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/miltruck/backplate.json",
+				"assets/animated_java/items/blueprint/miltruck/backwheels.json",
+				"assets/animated_java/items/blueprint/miltruck/bearings.json",
+				"assets/animated_java/items/blueprint/miltruck/exhaust.json",
+				"assets/animated_java/items/blueprint/miltruck/frontplate.json",
+				"assets/animated_java/items/blueprint/miltruck/frontwheels.json",
+				"assets/animated_java/items/blueprint/miltruck/root.json",
+				"assets/animated_java/items/blueprint/miltruck/trunk.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/miltruck/backplate.json",
+				"assets/animated_java/models/blueprint/miltruck/backwheels.json",
+				"assets/animated_java/models/blueprint/miltruck/bearings.json",
+				"assets/animated_java/models/blueprint/miltruck/exhaust.json",
+				"assets/animated_java/models/blueprint/miltruck/frontplate.json",
+				"assets/animated_java/models/blueprint/miltruck/frontwheels.json",
+				"assets/animated_java/models/blueprint/miltruck/root.json",
+				"assets/animated_java/models/blueprint/miltruck/trunk.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/miltruck/miltruck.png"
+			]
+		},
 		"ttt": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
