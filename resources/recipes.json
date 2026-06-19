@@ -1,13 +1,30 @@
 [
     {
-        "id": "smelt_iron",
-        "name": "Iron Smelting",
+        "id"      : "smelt_iron",
+        "name"    : "Iron Smelting",
         "machines": ["smeltery"],
-        "input": [
-            {"item": "iron_ore", "count": 2}
-        ],
-        "output": [
-            {"item": "iron", "count": 1}
-        ]
+        "input"   : [{"item": "iron_ore", "count": 2}],
+        "output"  : [{"item": "iron", "count": 1}]
+    },
+    {
+        "id"      : "smelt_copper",
+        "name"    : "Copper Smelting",
+        "machines": ["smeltery"],
+        "input"   : [{"item": "copper_ore", "count": 3}],
+        "output"  : [{"item": "copper", "count": 1}]
+    },
+    {
+        "id"      : "smelt_gold",
+        "name"    : "Gold Smelting",
+        "machines": ["smeltery"],
+        "input"   : [{"item": "gold_ore", "count": 2}],
+        "output"  : [{"item": "gold", "count": 1}]
+    },
+    {
+        "id"      : "fuck_iron",
+        "name"    : "Iron Smelting",
+        "machines": ["assembler"],
+        "input"   : [{"item": "iron_ore", "count": 1}, {"item": "iron", "count": 1}],
+        "output"  : [{"item": "iron", "count": 1}]
     }
 ]

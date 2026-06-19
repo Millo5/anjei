@@ -8,6 +8,8 @@
         "index": 0,
         "cases": [
             {"when": "iron_mine", "model": { "type": "model", "model": "custom/blocks/ironmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "copper_mine", "model": { "type": "model", "model": "custom/blocks/coppermine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "gold_mine", "model": { "type": "model", "model": "custom/blocks/goldmine", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "smeltery", "model": { "type": "model", "model": "custom/blocks/smeltery", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "packager", "model": { "type": "model", "model": "custom/blocks/big_packager", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "belt", "model": { "type": "model", "model": "custom/blocks/conveyor_display", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
