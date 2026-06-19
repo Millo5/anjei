@@ -1,0 +1,88 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/forms/spool"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [9, 10, 13, 11], "texture": "#1"},
+				"east": {"uv": [11, 0, 15, 1], "texture": "#1"},
+				"south": {"uv": [11, 1, 15, 2], "texture": "#1"},
+				"west": {"uv": [11, 2, 15, 3], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 11, 6],
+			"to": [12, 13, 14],
+			"rotation": {"x": -180, "y": 0, "z": 0, "origin": [7, 11, 9]},
+			"faces": {
+				"north": {"uv": [9, 10, 13, 11], "texture": "#1"},
+				"east": {"uv": [11, 0, 15, 1], "texture": "#1"},
+				"south": {"uv": [11, 1, 15, 2], "texture": "#1"},
+				"west": {"uv": [11, 2, 15, 3], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5, 2, 5],
+			"to": [11, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 2, 5]},
+			"faces": {
+				"north": {"uv": [0, 8, 3, 11.5], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [8, 0, 11, 3.5], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3, 8, 6, 11.5], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [8, 3.5, 11, 7], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [9, 11, 6, 8], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [12, 7, 9, 10], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.25, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 5.75, 0]
+		},
+		"ground": {
+			"translation": [0, 6.5, 0]
+		},
+		"gui": {
+			"rotation": [-7, 15, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"head": {
+			"translation": [2.25, 11, 2]
+		},
+		"fixed": {
+			"translation": [0, 2.75, 0]
+		},
+		"on_shelf": {
+			"translation": [0, 2.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [7, 0, 7],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
