@@ -10,7 +10,7 @@
         "id"      : "smelt_copper",
         "name"    : "Copper Smelting",
         "machines": ["smeltery"],
-        "input"   : [{"item": "copper_ore", "count": 3}],
+        "input"   : [{"item": "copper_ore", "count": 2}],
         "output"  : [{"item": "copper", "count": 1}]
     },
     {
