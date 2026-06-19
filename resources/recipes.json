@@ -20,11 +20,12 @@
         "input"   : [{"item": "gold_ore", "count": 2}],
         "output"  : [{"item": "gold", "count": 1}]
     },
+
     {
-        "id"      : "fuck_iron",
-        "name"    : "Iron Smelting",
+        "id"      : "copper_wire",
+        "name"    : "Copper Cutting",
         "machines": ["assembler"],
-        "input"   : [{"item": "iron_ore", "count": 1}, {"item": "iron", "count": 1}],
-        "output"  : [{"item": "iron", "count": 1}]
+        "input"   : [{"item": "copper", "count": 1}],
+        "output"  : [{"item": "copper_wire", "count": 1}]
     }
 ]
