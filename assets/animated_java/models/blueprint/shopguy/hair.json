@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/shopguy/guy",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3, 2.98946, 7.93907],
+			"to": [13, 7.98946, 7.93907],
+			"rotation": {
+				"angle": 20,
+				"axis": "x",
+				"origin": [8, 7.82194, 7.99942]
+			},
+			"faces": {
+				"north": {
+					"uv": [10, 9.5, 12.5, 10.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10, 9.5, 10, 10.75],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12.5, 9.5, 15, 10.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12.5, 9.5, 12.5, 10.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12.5, 9.5, 10, 9.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [15, 9.5, 12.5, 9.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
