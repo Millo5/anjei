@@ -34,6 +34,20 @@
         "honey_level=2,facing=east": {
             "model": "minecraft:custom/blocks/packageplatform2",
             "y": 270
+        },
+
+        "honey_level=3,facing=east": {
+            "model": "minecraft:custom/blocks/shop-base",
+            "y": 90
+        },
+        
+        "honey_level=3,facing=west": {
+            "model": "minecraft:custom/blocks/shop-base",
+            "y": 270
+        },
+        "honey_level=3,facing=south": {
+            "model": "minecraft:custom/blocks/base-shop",
+            "y": 180
         }
     }
 }
