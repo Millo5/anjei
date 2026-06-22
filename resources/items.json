@@ -1,13 +1,14 @@
 [
-    {"id": "iron_ore",    "name": "Iron Ore",   "model": "minecraft:iron_ore"    },
-    {"id": "iron",        "name": "Iron",       "model": "minecraft:iron_bar"    },
-    {"id": "iron_wire",   "name": "Gold",       "model": "minecraft:iron_spool"  },
+    {"id": "iron_ore",    "name": "Iron Ore",   "model": "minecraft:iron_ore", "value": 0.3    },
+    {"id": "iron",        "name": "Iron",       "model": "minecraft:iron_bar", "value": 1  },
+    {"id": "iron_wire",   "name": "Iron Wire",       "model": "minecraft:iron_spool","value": 3  },
+    {"id": "iron_bolt",   "name": "Iron Bolt",      "model": "minecraft:iron_bolt", "value": 3  },
 
-    {"id": "copper_ore",  "name": "Copper Ore", "model": "minecraft:copper_ore"  },
-    {"id": "copper",      "name": "Copper",     "model": "minecraft:copper_bar"  },
-    {"id": "copper_wire", "name": "Gold",       "model": "minecraft:copper_spool"},
+    {"id": "copper_ore",  "name": "Copper Ore", "model": "minecraft:copper_ore","value": 0.1  },
+    {"id": "copper",      "name": "Copper",     "model": "minecraft:copper_bar", "value": 1  },
+    {"id": "copper_wire", "name": "Copper Wire",       "model": "minecraft:copper_spool", "value": 3},
 
-    {"id": "gold_ore",    "name": "Gold Ore",   "model": "minecraft:gold_ore"    },
-    {"id": "gold",        "name": "Gold",       "model": "minecraft:gold_bar"    },
-    {"id": "gold_wire",   "name": "Gold",       "model": "minecraft:gold_spool"  }
+    {"id": "gold_ore",    "name": "Gold Ore",   "model": "minecraft:gold_ore", "value": 0.5  },
+    {"id": "gold",        "name": "Gold",       "model": "minecraft:gold_bar", "value": 3  },
+    {"id": "gold_wire",   "name": "Gold WIre",       "model": "minecraft:gold_spool", "value": 7  }
 ]

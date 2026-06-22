@@ -27,5 +27,12 @@
         "machines": ["assembler"],
         "input"   : [{"item": "copper", "count": 1}],
         "output"  : [{"item": "copper_wire", "count": 1}]
+    },
+    {
+        "id": "iron_bolt",
+        "name": "Bolt Cutting",
+        "machines": ["assembler"],
+        "input": [{"item": "iron", "count": 1}],
+        "output": [{"item": "iron_bolt", "count": 2}]
     }
 ]
