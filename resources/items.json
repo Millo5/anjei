@@ -10,5 +10,6 @@
 
     {"id": "gold_ore",    "name": "Gold Ore",   "model": "minecraft:gold_ore", "value": 0.5  },
     {"id": "gold",        "name": "Gold",       "model": "minecraft:gold_bar", "value": 3  },
-    {"id": "gold_wire",   "name": "Gold WIre",       "model": "minecraft:gold_spool", "value": 7  }
+    {"id": "gold_wire",   "name": "Gold Wire",       "model": "minecraft:gold_spool", "value": 7  },
+    {"id": "circuit_board",   "name": "Circuit Board",       "model": "minecraft:circuit_board", "value": 15  }
 ]

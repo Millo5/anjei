@@ -15,6 +15,7 @@
             {"when": "belt", "model": { "type": "model", "model": "custom/blocks/conveyor_display", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "loader", "model": { "type": "model", "model": "custom/blocks/loader", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "assembler", "model": { "type": "model", "model": "custom/blocks/assembler", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
+            {"when": "smallsembler", "model": { "type": "model", "model": "custom/blocks/smallsembler", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}},
             {"when": "trash", "model": { "type": "model", "model": "custom/blocks/trash", "tints": [{"type": "custom_model_data","index": 0,"default": 4294967295}]}}
         ],
         "fallback": {
