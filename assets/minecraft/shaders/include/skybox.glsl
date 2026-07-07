@@ -71,7 +71,7 @@ vec4 skybox() {
     vec2 loc = gl_FragCoord.xy;
     float time = GameTime * 60 * TIMESCALE;
 
-    loc = 8 * round(loc / 8);
+    //loc = 8 * round(loc / 8);
 
     // INIT
     vec2 uv = (loc - .5 * ScreenSize.xy) / ScreenSize.y;
